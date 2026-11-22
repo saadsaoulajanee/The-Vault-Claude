@@ -1,0 +1,10 @@
+{
+  "name": "the-vault",
+  "version": "5.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node tests/run.mjs && node tests/features.mjs && node tests/features2.mjs",
+    "serve": "python3 -m http.server 8000"
+  }
+}

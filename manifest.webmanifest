@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "The Vault",
+  "short_name": "The Vault",
+  "description": "Plan interviews, guests and conventions",
+  "start_url": "./#/today",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#150b20",
+  "theme_color": "#150b20",
+  "icons": [
+    { "src": "./assets/vault-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/vault-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/vault-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Episodes", "url": "./#/episodes" },
+    { "name": "Conventions", "url": "./#/conventions" }
+  ]
+}
